@@ -1,8 +1,12 @@
 [tool.poetry]
 name = "rule-of-three"
 version = "0.1.0"
-description = ""
+description = "It is a way to simplify an equation or determine the value of a variable."
 authors = ["Antonio Feregrino <antonio.feregrino@gmail.com>"]
+license = "MIT"
+readme = "readme.md"
+homepage = "https://github.com/fferegrino/rule-of-three"
+repository = "https://github.com/fferegrino/rule-of-three"
 
 [tool.poetry.dependencies]
 python = "^3.8"
