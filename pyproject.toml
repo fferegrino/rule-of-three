@@ -8,6 +8,9 @@ readme = "readme.md"
 homepage = "https://github.com/fferegrino/rule-of-three"
 repository = "https://github.com/fferegrino/rule-of-three"
 
+[tool.poetry.scripts]
+ro3 = "rule_of_three.__main__:main"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 click = "^8.1.3"
